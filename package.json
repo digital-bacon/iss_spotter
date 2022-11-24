@@ -1,0 +1,23 @@
+{
+  "name": "iss-spotter",
+  "version": "1.0.0",
+  "description": "A  cool little app for space enthusiasts who are interested in spotting the International Space Station",
+  "main": "iss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-bacon/iss_spotter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digital-bacon/iss_spotter/issues"
+  },
+  "homepage": "https://github.com/digital-bacon/iss_spotter#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
