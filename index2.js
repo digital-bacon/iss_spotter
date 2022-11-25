@@ -18,4 +18,5 @@ const timestampECMAEpochToDate = (ECMAEpochTimestamp) => {
 };
 
 nextISSTimesForMyLocation()
-  .then(riseTimes => printReturnedFlyoverTimes(riseTimes));
+  .then(riseTimes => printReturnedFlyoverTimes(riseTimes))
+  .catch(error => console.log("It didn't work!" , error.message));
